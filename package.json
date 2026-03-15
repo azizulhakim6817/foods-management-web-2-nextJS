@@ -8,6 +8,7 @@
     "start": "next start",
     "lint": "eslint"
   },
+
   "dependencies": {
     "bcryptjs": "^3.0.3",
     "daisyui": "^5.5.19",
@@ -22,6 +23,7 @@
     "sweetalert2": "^11.26.22",
     "swiper": "^12.1.2"
   },
+  
   "devDependencies": {
     "@tailwindcss/postcss": "^4.2.1",
     "eslint": "^9",

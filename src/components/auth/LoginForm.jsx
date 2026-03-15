@@ -48,9 +48,9 @@ const LoginForm = () => {
 
   return (
     <div>
-      <div className="my-8 mx-auto card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+      <div className="my-8 mx-auto card bg-base-100 dark:text-white dark:bg-black w-full max-w-sm shrink-0 shadow-2xl">
         <div className="card-body">
-          <h1 className="text-xl font-semibold  text-gray-600 text-center">
+          <h1 className="text-xl font-semibold  text-gray-600 text-center dark:text-white">
             Login
           </h1>
           <form onSubmit={handleSubmit}>
@@ -62,8 +62,8 @@ const LoginForm = () => {
                 name="email"
                 value={form.email}
                 onChange={handleChange}
-                className="input"
-                placeholder="Email"
+                className="input  dark:bg-black"
+                placeholder="Email "
               />
               <label className="label">Password</label>
               <input

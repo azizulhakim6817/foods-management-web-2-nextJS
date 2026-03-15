@@ -48,9 +48,9 @@ const RegisterForm = () => {
 
   return (
     <div>
-      <div className="my-8 mx-auto card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+      <div className="my-8 mx-auto card bg-base-100 dark:text-white dark:bg-black w-full max-w-sm shrink-0 shadow-2xl">
         <div className="card-body">
-          <h1 className="text-xl font-semibold text-gray-600 text-center">
+          <h1 className="text-xl font-semibold text-gray-600 text-center dark:text-white">
             Registration
           </h1>
           <form onSubmit={handleSubmit}>
@@ -62,7 +62,7 @@ const RegisterForm = () => {
                 name="name"
                 value={form.name}
                 onChange={handleChange}
-                className="input"
+                className="input dark:text-black "
                 placeholder="Name"
               />
               {/* password-- */}
@@ -72,7 +72,7 @@ const RegisterForm = () => {
                 name="email"
                 value={form.email}
                 onChange={handleChange}
-                className="input"
+                className="input dark:text-white dark:bg-black"
                 placeholder="Email"
               />
               <label className="label">Password</label>
@@ -81,7 +81,7 @@ const RegisterForm = () => {
                 name="password"
                 value={form.password}
                 onChange={handleChange}
-                className="input"
+                className="input dark:text-white dark:bg-black"
                 placeholder="Password"
               />
               <label className="label">Image URL </label>
@@ -90,7 +90,7 @@ const RegisterForm = () => {
                 name="image"
                 value={form.image}
                 onChange={handleChange}
-                className="input"
+                className="input dark:text-black"
                 placeholder="Image URL"
               />
               <div>
@@ -98,7 +98,7 @@ const RegisterForm = () => {
               </div>
               <button
                 type="submit"
-                className="btn bg-accent text-white font-normal mt-4"
+                className="btn bg-accent text-white font-normal mt-4 "
               >
                 Register
               </button>

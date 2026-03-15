@@ -44,7 +44,7 @@ const Navbar = () => {
         </div>
 
         {/* Logo */}
-        <Link href="/">
+        <Link href="/" className=" hidden md:block">
           <Logo />
         </Link>
       </div>

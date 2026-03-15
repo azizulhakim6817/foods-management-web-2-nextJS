@@ -26,7 +26,7 @@ const SocialButton = () => {
       {/* Google */}
       <button
         onClick={handleGoogle}
-        className="w-full btn bg-white text-black border-[#e5e5e5] hover:bg-gray-100 hover:outline-1 outline-accent"
+        className="w-full btn bg-white text-black border-[#e5e5e5] dark:hover:bg-black hover:bg-gray-100 hover:outline-1 outline-accent dark:text-white dark:bg-black"
       >
         <svg
           aria-label="Google logo"
